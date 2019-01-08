@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+	<script src="filtered_data.json"></script>
+	<link rel="stylesheet" type="text/css" href="visualisation.css">
+	<meta charset="utf-8">
+	<title>Battling infant mortality</title>
+	<h1 style="margin-left: 35%; font-size: 3em">Battling infant mortality around the world</h1>
+	<h2 style="width: 600px; margin-left: 33%">For a long time, a lot of countries have stuggles with a high infant mortality rate. Here we will take a look at the causes and improvements across the world.</h2>
+</head>
+<body>
+
+	<script type="text/javascript" src="d3/d3.min.js"></script>
+
+	<div class="mostTroubled">
+
+	</div>
+
+	<div class="piecharts-container" style="position: relative; height: 350px; width: 250px; margin-left:27%">
+		<h2 style="position: absolute; left: 100px;">Africa</h2>
+		<h2 style="position: absolute; left: 330px; width: 150px">South Asia</h2>
+		<h2 style="position: absolute; left: 570px; width: 150px">Latin America</h2>
+		<canvas id="causesAfrica" style="position: absolute; top: 50px"></canvas>
+		<canvas id="causesSouthAsia" style="position: absolute; left: 250px; top: 50px"></canvas>
+		<canvas id="causesLatinAmerica" style="position: absolute; left: 500px; top: 50px"></canvas>
+	</div>
+	<h3 style="width: 600px; margin-left: 32%">As seen above, a lot of infant deaths are due to stillborn (or premature) deaths, followed up by infections. These are mostly preventable causes.</h3>
+
+
+	<div class="linechart-containers" height=1000px width = 1000 style="position: relative; height: 650px; width: 300px; margin-left: 30%; margin-top: 40px">
+		<h2>Noticable improvements in the world</h2>
+		<canvas id="lineNiger" width="200" height="200" style="position: absolute; left: 0px;"></canvas>
+		<canvas id="lineOman" width="200" height="200"  style="position: absolute; left: 320px;"></canvas>
+		<canvas id="lineMaldives" width="200" height="200"  style="position: absolute; top: 320px;"></canvas>
+		<canvas id="lineYemen" width="200" height="200"  style="position: absolute; top: 320px;left: 320px;"></canvas>
+		<h4 style="position: absolute;margin-top: 580px">Infant mortality in deaths per 1000 born</h4>
+	</div>
+
+	<h3 style="width: 600px; margin-left: 32%">As the world became more aware of the causes of infant mortality, a lot of countries tried to solve the problem, often with greatly positive result.</h3>
+
+	<div class="barchar-container" style="position: relative; height: 500px; width: 1000px; margin-left: 18%; margin-top: 80px">
+		<canvas id="myChart"></canvas>
+	</div>
+
+	<div class="value">2016</div>
+	<input type="range" min="1990" max="2016" step="1" value="2016">
+	<h3 style="width: 600px; margin-left: 32%">Use the slidebar to see the average infant deaths per 1000 change throughout the years.</h3>
+
+	<div style="height: 100px"></div>
+
+	<script type="text/javascript">
+
+		
+
+		var elem = document.querySelector('input[type="range"]');
+
+		var rangeValue = function(){
+  		var newValue = elem.value;
+  		var target = document.querySelector('.value');
+  		target.innerHTML = newValue;
+  		updateBarChart(newValue);
+		}
+
+		elem.addEventListener("input", rangeValue);
+
+		var causesAfricaChart = document.getElementById('causesAfrica').getContext('2d');
+		var causesSouthAsiaChart = document.getElementById('causesSouthAsia').getContext('2d');
+		var causesLatinAmericaChart = document.getElementById('causesLatinAmerica').getContext('2d');
+		var ctx = document.getElementById('myChart').getContext('2d');
+		var lnNiger = document.getElementById('lineNiger').getContext('2d');
+		var lnOman = document.getElementById('lineOman').getContext('2d');
+		var lnYemen = document.getElementById('lineYemen').getContext('2d');
+		var lnMaldives = document.getElementById('lineMaldives').getContext('2d');
+
+
+		var piechartAfrica = new Chart(causesAfricaChart, {
+			type: 'pie',
+
+			data: {
+		       	labels: ["stillborn", "infections", "congenital", "other"],
+		        datasets: [{
+		            label: "Causes of infant deaths in africa",
+		            backgroundColor: ["#671821", '#aa2433', '#c9765d', '#da9772', "#8f8a54"],
+		            //borderColor: 'rgb(255, 99, 132)',
+		            data: [48,39,6,7],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {}
+		});
+
+		var piechartSouthAsia = new Chart(causesSouthAsiaChart, {
+			type: 'pie',
+
+			data: {
+		       	labels: ["stillborn", "infections", "diarrhea", "other"],
+		        datasets: [{
+		            label: "Causes of infant deaths in Latin America",
+		            backgroundColor: ["#671821", '#aa2433', '#8f8a54', '#da9772', "#8f8a54"],
+		            //borderColor: 'rgb(255, 99, 132)',
+		            data: [32,32,4,32],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {}
+		});
+
+		var piechartLatinAmerica = new Chart(causesLatinAmericaChart, {
+			type: 'pie',
+
+			data: {
+		       	labels: ["stillborn", "infections", "diarrhea", "other"],
+		       	labels: ["stillborn", "infections", "diarrhea", "other"],
+		        datasets: [{
+		            label: "Causes of infant deaths in South Asia",
+		            backgroundColor: ["#671821", '#aa2433', '#8f8a54', '#da9772', "#8f8a54"],
+		            //borderColor: 'rgb(255, 99, 132)',
+		            data: [26,20,18,30],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {}
+		});
+
+		var lineChart = new Chart(lnNiger, {
+			type: 'line',
+
+			data: {
+		       	labels: ["1970", "1975", "1980", "1985", "1990", "1995", "2000", "2005", "2010", "2015"],
+		        datasets: [{
+		            label: "Improvement in Niger",
+		            backgroundColor: '#aa2433',
+		            borderColor: '#aa2433',
+		            data: [131, 136, 129, 134, 132, 115, 98, 79, 62, 52],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {
+    			scales:{
+    			yAxes: [{
+    				ticks: {min: 0, max: 200}
+    			}]
+    		}
+    		}
+		});
+
+		var lineChart = new Chart(lnOman, {
+			type: 'line',
+
+			data: {
+		       	labels: ["1970", "1975", "1980", "1985", "1990", "1995", "2000", "2005", "2010", "2015"],
+		        datasets: [{
+		            label: "Improvement in Oman",
+		            backgroundColor: '#aa2433',
+		            borderColor: '#aa2433',
+		            data: [152, 115, 79, 50, 32, 21, 14, 11, 10, 9],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {
+    			scales:{
+    			yAxes: [{
+    				ticks: {min: 0, max: 200}
+    			}]
+    		}
+    		}
+		});
+
+		var lineChart = new Chart(lnMaldives, {
+			type: 'line',
+
+			data: {
+		       	labels: ["1970", "1975", "1980", "1985", "1990", "1995", "2000", "2005", "2010", "2015"],
+		        datasets: [{
+		            label: "Improvement in Maldives",
+		            backgroundColor: '#aa2433',
+		            borderColor: '#aa2433',
+		            data: [174, 138, 107, 85, 68, 53, 35, 19, 11, 8],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {
+    			scales:{
+    			yAxes: [{
+    				ticks: {min: 0, max: 200}
+    			}]
+    		}
+    		}
+		});
+
+		var lineChart = new Chart(lnYemen, {
+			type: 'line',
+
+			data: {
+		       	labels: ["1970", "1975", "1980", "1985", "1990", "1995", "2000", "2005", "2010", "2015"],
+		        datasets: [{
+		            label: "Improvement in Yemen",
+		            backgroundColor: '#aa2433',
+		            borderColor: '#aa2433',
+		            data: [219, 180, 139, 106, 88, 80, 69, 54, 44, 43],
+		        }]
+	   		 },
+
+    	// Configuration options go here
+    		options: {
+    			scales:{
+    			yAxes: [{
+    				ticks: {min: 0, max: 200}
+    			}]
+    		}
+    		}
+		});
+
+		var chart = new Chart(ctx, {
+    	// The type of chart we want to create
+    	type: 'bar',
+    	// The data for our dataset
+	    data: {
+	        labels: [],
+	        datasets: [{
+	            label: "Child mortality rate",
+	            backgroundColor: 'rgb(255, 99, 132)',
+	            borderColor: 'rgb(255, 99, 132)',
+	            data: [],
+	        }]
+	    },
+
+    	// Configuration options go here
+    	options: {
+    		scales:{
+    			yAxes: [{
+    				ticks: {min: 0, max: 120}
+    			}]
+    		}
+    	}
+		});
+
+		updateBarChart("2016");
+
+
+
+		function updateBarChart(year){
+			var barData = [];
+			var barLabels = [];
+			for (var i = 0; i < JSONData.length; i++) {
+				if(JSONData[i]["Year"] == String(year)){
+					barData.push(JSONData[i]["Value"]);
+					barLabels.push(JSONData[i]["Country"]);
+				}
+			}
+
+			chart.config.data = {
+				labels: barLabels,
+				datasets: [{
+					label: "Child mortality per 1000 born",
+					backgroundColor: '#da9772',
+					borderColor: '#da9772',
+					data: barData,
+				}]
+			}
+			chart.update();
+		}
+	</script>
+</body>
+</html>

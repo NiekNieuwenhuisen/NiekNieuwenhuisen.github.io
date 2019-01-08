@@ -1,0 +1,1892 @@
+var JSONData = [
+ {
+   "ID": 0,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1990,
+   "Value": 58.4130944501581
+ },
+ {
+   "ID": 1,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1991,
+   "Value": 56.7377284700347
+ },
+ {
+   "ID": 2,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1992,
+   "Value": 55.192243877122706
+ },
+ {
+   "ID": 3,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1993,
+   "Value": 53.7618650594938
+ },
+ {
+   "ID": 4,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1994,
+   "Value": 52.336223741181094
+ },
+ {
+   "ID": 5,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1995,
+   "Value": 50.991821454846495
+ },
+ {
+   "ID": 6,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1996,
+   "Value": 49.6336783724673
+ },
+ {
+   "ID": 7,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1997,
+   "Value": 48.298095293907096
+ },
+ {
+   "ID": 8,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1998,
+   "Value": 46.979096914134395
+ },
+ {
+   "ID": 9,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 1999,
+   "Value": 45.6762343214139
+ },
+ {
+   "ID": 10,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2000,
+   "Value": 44.37062933673229
+ },
+ {
+   "ID": 11,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2001,
+   "Value": 43.1256039072931
+ },
+ {
+   "ID": 12,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2002,
+   "Value": 41.826177965953704
+ },
+ {
+   "ID": 13,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2003,
+   "Value": 40.61444851478171
+ },
+ {
+   "ID": 14,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2004,
+   "Value": 39.40363299930821
+ },
+ {
+   "ID": 15,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2005,
+   "Value": 38.265032522912605
+ },
+ {
+   "ID": 16,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2006,
+   "Value": 37.132279516215
+ },
+ {
+   "ID": 17,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2007,
+   "Value": 35.965889431138294
+ },
+ {
+   "ID": 18,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2008,
+   "Value": 34.7942371438376
+ },
+ {
+   "ID": 19,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2009,
+   "Value": 33.6559540757129
+ },
+ {
+   "ID": 20,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2010,
+   "Value": 32.6433306291653
+ },
+ {
+   "ID": 21,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2011,
+   "Value": 31.789325936032903
+ },
+ {
+   "ID": 22,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2012,
+   "Value": 31.034511915179202
+ },
+ {
+   "ID": 23,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2013,
+   "Value": 30.3359162316365
+ },
+ {
+   "ID": 24,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2014,
+   "Value": 29.7262742650105
+ },
+ {
+   "ID": 25,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2015,
+   "Value": 29.156326787176198
+ },
+ {
+   "ID": 26,
+   "Country": "Arab World",
+   "Code": "ARB",
+   "Year": 2016,
+   "Value": 28.604027276444697
+ },
+ {
+   "ID": 54,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1990,
+   "Value": 16.154032957905
+ },
+ {
+   "ID": 55,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1991,
+   "Value": 15.621157368744301
+ },
+ {
+   "ID": 56,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1992,
+   "Value": 15.1357487828739
+ },
+ {
+   "ID": 57,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1993,
+   "Value": 14.7576168439386
+ },
+ {
+   "ID": 58,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1994,
+   "Value": 14.3451553058871
+ },
+ {
+   "ID": 59,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1995,
+   "Value": 13.741847455044802
+ },
+ {
+   "ID": 60,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1996,
+   "Value": 13.058373331845301
+ },
+ {
+   "ID": 61,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1997,
+   "Value": 12.2886589459356
+ },
+ {
+   "ID": 62,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1998,
+   "Value": 11.6278735610966
+ },
+ {
+   "ID": 63,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 1999,
+   "Value": 10.9792811367487
+ },
+ {
+   "ID": 64,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2000,
+   "Value": 10.442038044216199
+ },
+ {
+   "ID": 65,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2001,
+   "Value": 9.93102515577035
+ },
+ {
+   "ID": 66,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2002,
+   "Value": 9.58570346826948
+ },
+ {
+   "ID": 67,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2003,
+   "Value": 9.237600799746462
+ },
+ {
+   "ID": 68,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2004,
+   "Value": 8.780556087594968
+ },
+ {
+   "ID": 69,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2005,
+   "Value": 8.29196163165627
+ },
+ {
+   "ID": 70,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2006,
+   "Value": 7.736607741992559
+ },
+ {
+   "ID": 71,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2007,
+   "Value": 7.17875343502849
+ },
+ {
+   "ID": 72,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2008,
+   "Value": 6.7324968777571295
+ },
+ {
+   "ID": 73,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2009,
+   "Value": 6.29605145621991
+ },
+ {
+   "ID": 74,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2010,
+   "Value": 6.019182842827389
+ },
+ {
+   "ID": 75,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2011,
+   "Value": 5.7181688677789495
+ },
+ {
+   "ID": 76,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2012,
+   "Value": 5.46234801598276
+ },
+ {
+   "ID": 77,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2013,
+   "Value": 5.263059620638151
+ },
+ {
+   "ID": 78,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2014,
+   "Value": 5.04161113477418
+ },
+ {
+   "ID": 79,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2015,
+   "Value": 4.892032884456519
+ },
+ {
+   "ID": 80,
+   "Country": "Central Europe and the Baltics",
+   "Code": "CEB",
+   "Year": 2016,
+   "Value": 4.73483042228966
+ },
+ {
+   "ID": 108,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1990,
+   "Value": 43.4141970907815
+ },
+ {
+   "ID": 109,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1991,
+   "Value": 42.62257683928
+ },
+ {
+   "ID": 110,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1992,
+   "Value": 41.6633631534576
+ },
+ {
+   "ID": 111,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1993,
+   "Value": 40.543381155599704
+ },
+ {
+   "ID": 112,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1994,
+   "Value": 39.4281108280628
+ },
+ {
+   "ID": 113,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1995,
+   "Value": 38.1864495516798
+ },
+ {
+   "ID": 114,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1996,
+   "Value": 37.001917676953894
+ },
+ {
+   "ID": 115,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1997,
+   "Value": 35.7532365451425
+ },
+ {
+   "ID": 116,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1998,
+   "Value": 34.4685608969723
+ },
+ {
+   "ID": 117,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 1999,
+   "Value": 33.1048324292292
+ },
+ {
+   "ID": 118,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2000,
+   "Value": 31.6348225984518
+ },
+ {
+   "ID": 119,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2001,
+   "Value": 30.1515978504384
+ },
+ {
+   "ID": 120,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2002,
+   "Value": 28.513890986961698
+ },
+ {
+   "ID": 121,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2003,
+   "Value": 26.9501199171246
+ },
+ {
+   "ID": 122,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2004,
+   "Value": 25.5979188924525
+ },
+ {
+   "ID": 123,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2005,
+   "Value": 23.9263209860748
+ },
+ {
+   "ID": 124,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2006,
+   "Value": 22.5738789912132
+ },
+ {
+   "ID": 125,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2007,
+   "Value": 21.3386713011116
+ },
+ {
+   "ID": 126,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2008,
+   "Value": 20.3478607856568
+ },
+ {
+   "ID": 127,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2009,
+   "Value": 19.1341006528561
+ },
+ {
+   "ID": 128,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2010,
+   "Value": 18.136432974429802
+ },
+ {
+   "ID": 129,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2011,
+   "Value": 17.225074202023198
+ },
+ {
+   "ID": 130,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2012,
+   "Value": 16.3742237913558
+ },
+ {
+   "ID": 131,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2013,
+   "Value": 15.5584857895659
+ },
+ {
+   "ID": 132,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2014,
+   "Value": 14.8184147299894
+ },
+ {
+   "ID": 133,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2015,
+   "Value": 14.174994307590199
+ },
+ {
+   "ID": 134,
+   "Country": "East Asia & Pacific",
+   "Code": "EAS",
+   "Year": 2016,
+   "Value": 13.561600655158
+ },
+ {
+   "ID": 216,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1990,
+   "Value": 25.033932307637897
+ },
+ {
+   "ID": 217,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1991,
+   "Value": 24.5664509021943
+ },
+ {
+   "ID": 218,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1992,
+   "Value": 24.1956398749544
+ },
+ {
+   "ID": 219,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1993,
+   "Value": 23.777138201384503
+ },
+ {
+   "ID": 220,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1994,
+   "Value": 23.2638608257303
+ },
+ {
+   "ID": 221,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1995,
+   "Value": 22.5787308423253
+ },
+ {
+   "ID": 222,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1996,
+   "Value": 21.780802741254398
+ },
+ {
+   "ID": 223,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1997,
+   "Value": 20.902116953370303
+ },
+ {
+   "ID": 224,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1998,
+   "Value": 19.9807733122106
+ },
+ {
+   "ID": 225,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 1999,
+   "Value": 19.0391144882594
+ },
+ {
+   "ID": 226,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2000,
+   "Value": 18.107626871106397
+ },
+ {
+   "ID": 227,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2001,
+   "Value": 17.1572745405141
+ },
+ {
+   "ID": 228,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2002,
+   "Value": 16.2707697543356
+ },
+ {
+   "ID": 229,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2003,
+   "Value": 15.4200483086593
+ },
+ {
+   "ID": 230,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2004,
+   "Value": 14.607452490498801
+ },
+ {
+   "ID": 231,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2005,
+   "Value": 13.861882148420902
+ },
+ {
+   "ID": 232,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2006,
+   "Value": 13.1738527665101
+ },
+ {
+   "ID": 233,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2007,
+   "Value": 12.557216290631402
+ },
+ {
+   "ID": 234,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2008,
+   "Value": 11.9980324313442
+ },
+ {
+   "ID": 235,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2009,
+   "Value": 11.463162970482301
+ },
+ {
+   "ID": 236,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2010,
+   "Value": 10.9594203301842
+ },
+ {
+   "ID": 237,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2011,
+   "Value": 10.4708071669993
+ },
+ {
+   "ID": 238,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2012,
+   "Value": 10.008383925444198
+ },
+ {
+   "ID": 239,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2013,
+   "Value": 9.58948372986861
+ },
+ {
+   "ID": 240,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2014,
+   "Value": 9.15662243456902
+ },
+ {
+   "ID": 241,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2015,
+   "Value": 8.74739854553625
+ },
+ {
+   "ID": 242,
+   "Country": "Europe & Central Asia",
+   "Code": "ECS",
+   "Year": 2016,
+   "Value": 8.35687523663705
+ },
+ {
+   "ID": 567,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1990,
+   "Value": 43.83462054641979
+ },
+ {
+   "ID": 568,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1991,
+   "Value": 42.15499443166029
+ },
+ {
+   "ID": 569,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1992,
+   "Value": 40.481396629977205
+ },
+ {
+   "ID": 570,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1993,
+   "Value": 38.8253817113974
+ },
+ {
+   "ID": 571,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1994,
+   "Value": 37.088731592329005
+ },
+ {
+   "ID": 572,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1995,
+   "Value": 35.4295708925357
+ },
+ {
+   "ID": 573,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1996,
+   "Value": 33.7494882689214
+ },
+ {
+   "ID": 574,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1997,
+   "Value": 32.1742950983235
+ },
+ {
+   "ID": 575,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1998,
+   "Value": 30.659792339712
+ },
+ {
+   "ID": 576,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 1999,
+   "Value": 29.160176366692
+ },
+ {
+   "ID": 577,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2000,
+   "Value": 27.723634517378102
+ },
+ {
+   "ID": 578,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2001,
+   "Value": 26.398380821023398
+ },
+ {
+   "ID": 579,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2002,
+   "Value": 25.1701831289884
+ },
+ {
+   "ID": 580,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2003,
+   "Value": 24.035584909706603
+ },
+ {
+   "ID": 581,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2004,
+   "Value": 22.9780534036379
+ },
+ {
+   "ID": 582,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2005,
+   "Value": 21.9745245624049
+ },
+ {
+   "ID": 583,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2006,
+   "Value": 21.0640045586938
+ },
+ {
+   "ID": 584,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2007,
+   "Value": 20.2426130570334
+ },
+ {
+   "ID": 585,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2008,
+   "Value": 19.5204658047206
+ },
+ {
+   "ID": 586,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2009,
+   "Value": 18.815519006466698
+ },
+ {
+   "ID": 587,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2010,
+   "Value": 18.7902947927895
+ },
+ {
+   "ID": 588,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2011,
+   "Value": 17.5389985955658
+ },
+ {
+   "ID": 589,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2012,
+   "Value": 16.9452430240968
+ },
+ {
+   "ID": 590,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2013,
+   "Value": 16.362488260691098
+ },
+ {
+   "ID": 591,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2014,
+   "Value": 15.8626113302879
+ },
+ {
+   "ID": 592,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2015,
+   "Value": 15.330453763262598
+ },
+ {
+   "ID": 593,
+   "Country": "Latin America & Caribbean",
+   "Code": "LCN",
+   "Year": 2016,
+   "Value": 14.8773223651061
+ },
+ {
+   "ID": 756,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1990,
+   "Value": 50.1723342186565
+ },
+ {
+   "ID": 757,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1991,
+   "Value": 48.2767450198487
+ },
+ {
+   "ID": 758,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1992,
+   "Value": 46.5164766408675
+ },
+ {
+   "ID": 759,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1993,
+   "Value": 44.8664201971828
+ },
+ {
+   "ID": 760,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1994,
+   "Value": 43.2062624905044
+ },
+ {
+   "ID": 761,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1995,
+   "Value": 41.6291237060251
+ },
+ {
+   "ID": 762,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1996,
+   "Value": 40.04994444131
+ },
+ {
+   "ID": 763,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1997,
+   "Value": 38.5172734179154
+ },
+ {
+   "ID": 764,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1998,
+   "Value": 37.0303131925419
+ },
+ {
+   "ID": 765,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 1999,
+   "Value": 35.59514068877
+ },
+ {
+   "ID": 766,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2000,
+   "Value": 34.1934600920068
+ },
+ {
+   "ID": 767,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2001,
+   "Value": 32.879751108362605
+ },
+ {
+   "ID": 768,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2002,
+   "Value": 31.5418073241151
+ },
+ {
+   "ID": 769,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2003,
+   "Value": 30.2945842807164
+ },
+ {
+   "ID": 770,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2004,
+   "Value": 29.0983162294781
+ },
+ {
+   "ID": 771,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2005,
+   "Value": 27.9856412345681
+ },
+ {
+   "ID": 772,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2006,
+   "Value": 26.9034136783498
+ },
+ {
+   "ID": 773,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2007,
+   "Value": 25.8555407589504
+ },
+ {
+   "ID": 774,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2008,
+   "Value": 24.8609413507453
+ },
+ {
+   "ID": 775,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2009,
+   "Value": 23.9571895017828
+ },
+ {
+   "ID": 776,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2010,
+   "Value": 23.181759256188997
+ },
+ {
+   "ID": 777,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2011,
+   "Value": 22.5576122405649
+ },
+ {
+   "ID": 778,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2012,
+   "Value": 21.997236309871397
+ },
+ {
+   "ID": 779,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2013,
+   "Value": 21.490313547223302
+ },
+ {
+   "ID": 780,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2014,
+   "Value": 21.0205396736628
+ },
+ {
+   "ID": 781,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2015,
+   "Value": 20.5543636616182
+ },
+ {
+   "ID": 782,
+   "Country": "Middle East & North Africa",
+   "Code": "MEA",
+   "Year": 2016,
+   "Value": 20.1117355322118
+ },
+  {
+   "ID": 864,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1990,
+   "Value": 9.16821197079929
+ },
+ {
+   "ID": 865,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1991,
+   "Value": 8.877557041307721
+ },
+ {
+   "ID": 866,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1992,
+   "Value": 8.5873967743926
+ },
+ {
+   "ID": 867,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1993,
+   "Value": 8.28901841889179
+ },
+ {
+   "ID": 868,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1994,
+   "Value": 8.0087494460522
+ },
+ {
+   "ID": 869,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1995,
+   "Value": 7.803020341855509
+ },
+ {
+   "ID": 870,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1996,
+   "Value": 7.5234574228099005
+ },
+ {
+   "ID": 871,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1997,
+   "Value": 7.32710258233199
+ },
+ {
+   "ID": 872,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1998,
+   "Value": 7.1468780049733605
+ },
+ {
+   "ID": 873,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 1999,
+   "Value": 7.0499431112563595
+ },
+ {
+   "ID": 874,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2000,
+   "Value": 6.95245267846097
+ },
+ {
+   "ID": 875,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2001,
+   "Value": 6.86949067269291
+ },
+ {
+   "ID": 876,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2002,
+   "Value": 6.77782654136098
+ },
+ {
+   "ID": 877,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2003,
+   "Value": 6.77008868675822
+ },
+ {
+   "ID": 878,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2004,
+   "Value": 6.769216793682911
+ },
+ {
+   "ID": 879,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2005,
+   "Value": 6.675407714813209
+ },
+ {
+   "ID": 880,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2006,
+   "Value": 6.58122069697529
+ },
+ {
+   "ID": 881,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2007,
+   "Value": 6.4788663915562
+ },
+ {
+   "ID": 882,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2008,
+   "Value": 6.37633493420954
+ },
+ {
+   "ID": 883,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2009,
+   "Value": 6.28220738498705
+ },
+ {
+   "ID": 884,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2010,
+   "Value": 6.0886035255282405
+ },
+ {
+   "ID": 885,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2011,
+   "Value": 5.98696370795016
+ },
+ {
+   "ID": 886,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2012,
+   "Value": 5.88579603077932
+ },
+ {
+   "ID": 887,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2013,
+   "Value": 5.79398774290493
+ },
+ {
+   "ID": 888,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2014,
+   "Value": 5.693899711351769
+ },
+ {
+   "ID": 889,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2015,
+   "Value": 5.594269091863491
+ },
+ {
+   "ID": 890,
+   "Country": "North America",
+   "Code": "NAC",
+   "Year": 2016,
+   "Value": 5.486229663262731
+ },
+ {
+   "ID": 1053,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1990,
+   "Value": 91.7
+ },
+ {
+   "ID": 1054,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1991,
+   "Value": 89.3
+ },
+ {
+   "ID": 1055,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1992,
+   "Value": 87
+ },
+ {
+   "ID": 1056,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1993,
+   "Value": 84.8
+ },
+ {
+   "ID": 1057,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1994,
+   "Value": 82.6
+ },
+ {
+   "ID": 1058,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1995,
+   "Value": 80.4
+ },
+ {
+   "ID": 1059,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1996,
+   "Value": 78.1
+ },
+ {
+   "ID": 1060,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1997,
+   "Value": 75.8
+ },
+ {
+   "ID": 1061,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1998,
+   "Value": 73.4
+ },
+ {
+   "ID": 1062,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 1999,
+   "Value": 71.1
+ },
+ {
+   "ID": 1063,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2000,
+   "Value": 68.9
+ },
+ {
+   "ID": 1064,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2001,
+   "Value": 66.6
+ },
+ {
+   "ID": 1065,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2002,
+   "Value": 64.4
+ },
+ {
+   "ID": 1066,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2003,
+   "Value": 62.3
+ },
+ {
+   "ID": 1067,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2004,
+   "Value": 60.3
+ },
+ {
+   "ID": 1068,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2005,
+   "Value": 58.3
+ },
+ {
+   "ID": 1069,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2006,
+   "Value": 56.5
+ },
+ {
+   "ID": 1070,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2007,
+   "Value": 54.5
+ },
+ {
+   "ID": 1071,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2008,
+   "Value": 52.7
+ },
+ {
+   "ID": 1072,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2009,
+   "Value": 50.9
+ },
+ {
+   "ID": 1073,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2010,
+   "Value": 49
+ },
+ {
+   "ID": 1074,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2011,
+   "Value": 47.2
+ },
+ {
+   "ID": 1075,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2012,
+   "Value": 45.5
+ },
+ {
+   "ID": 1076,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2013,
+   "Value": 43.7
+ },
+ {
+   "ID": 1077,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2014,
+   "Value": 42
+ },
+ {
+   "ID": 1078,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2015,
+   "Value": 40.3
+ },
+ {
+   "ID": 1079,
+   "Country": "South Asia",
+   "Code": "SAS",
+   "Year": 2016,
+   "Value": 38.8
+ },
+ {
+   "ID": 1107,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1990,
+   "Value": 107.99694725652701
+ },
+ {
+   "ID": 1108,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1991,
+   "Value": 107.15331078866801
+ },
+ {
+   "ID": 1109,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1992,
+   "Value": 106.295884272343
+ },
+ {
+   "ID": 1110,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1993,
+   "Value": 105.472942490466
+ },
+ {
+   "ID": 1111,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1994,
+   "Value": 104.69290882975001
+ },
+ {
+   "ID": 1112,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1995,
+   "Value": 103.499821423895
+ },
+ {
+   "ID": 1113,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1996,
+   "Value": 102.135208079287
+ },
+ {
+   "ID": 1114,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1997,
+   "Value": 100.61171886652201
+ },
+ {
+   "ID": 1115,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1998,
+   "Value": 98.74423204097559
+ },
+ {
+   "ID": 1116,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 1999,
+   "Value": 96.5176613900538
+ },
+ {
+   "ID": 1117,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2000,
+   "Value": 94.0092807945939
+ },
+ {
+   "ID": 1118,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2001,
+   "Value": 91.1259549127802
+ },
+ {
+   "ID": 1119,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2002,
+   "Value": 88.1314351585539
+ },
+ {
+   "ID": 1120,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2003,
+   "Value": 85.04548206295
+ },
+ {
+   "ID": 1121,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2004,
+   "Value": 81.93103706906841
+ },
+ {
+   "ID": 1122,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2005,
+   "Value": 78.830493817874
+ },
+ {
+   "ID": 1123,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2006,
+   "Value": 75.8474480851234
+ },
+ {
+   "ID": 1124,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2007,
+   "Value": 72.9357955956914
+ },
+ {
+   "ID": 1125,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2008,
+   "Value": 70.22965414477511
+ },
+ {
+   "ID": 1126,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2009,
+   "Value": 67.6315896660728
+ },
+ {
+   "ID": 1127,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2010,
+   "Value": 65.1854209007968
+ },
+ {
+   "ID": 1128,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2011,
+   "Value": 62.847679469420996
+ },
+ {
+   "ID": 1129,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2012,
+   "Value": 60.6647401706028
+ },
+ {
+   "ID": 1130,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2013,
+   "Value": 58.6324336221387
+ },
+ {
+   "ID": 1131,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2014,
+   "Value": 56.6660218677149
+ },
+ {
+   "ID": 1132,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2015,
+   "Value": 54.918255976820895
+ },
+ {
+   "ID": 1133,
+   "Country": "Sub-Saharan Africa",
+   "Code": "SSF",
+   "Year": 2016,
+   "Value": 53.2593261102819
+ },
+  {
+   "ID": 1215,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1990,
+   "Value": 64.8
+ },
+ {
+   "ID": 1216,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1991,
+   "Value": 63.9
+ },
+ {
+   "ID": 1217,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1992,
+   "Value": 63.1
+ },
+ {
+   "ID": 1218,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1993,
+   "Value": 62.3
+ },
+ {
+   "ID": 1219,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1994,
+   "Value": 61.4
+ },
+ {
+   "ID": 1220,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1995,
+   "Value": 60.5
+ },
+ {
+   "ID": 1221,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1996,
+   "Value": 59.4
+ },
+ {
+   "ID": 1222,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1997,
+   "Value": 58.2
+ },
+ {
+   "ID": 1223,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1998,
+   "Value": 56.9
+ },
+ {
+   "ID": 1224,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 1999,
+   "Value": 55.4
+ },
+ {
+   "ID": 1225,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2000,
+   "Value": 53.9
+ },
+ {
+   "ID": 1226,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2001,
+   "Value": 52.1
+ },
+ {
+   "ID": 1227,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2002,
+   "Value": 50.3
+ },
+ {
+   "ID": 1228,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2003,
+   "Value": 48.6
+ },
+ {
+   "ID": 1229,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2004,
+   "Value": 46.9
+ },
+ {
+   "ID": 1230,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2005,
+   "Value": 45.1
+ },
+ {
+   "ID": 1231,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2006,
+   "Value": 43.4
+ },
+ {
+   "ID": 1232,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2007,
+   "Value": 41.8
+ },
+ {
+   "ID": 1233,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2008,
+   "Value": 40.3
+ },
+ {
+   "ID": 1234,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2009,
+   "Value": 38.8
+ },
+ {
+   "ID": 1235,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2010,
+   "Value": 37.4
+ },
+ {
+   "ID": 1236,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2011,
+   "Value": 36
+ },
+ {
+   "ID": 1237,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2012,
+   "Value": 34.7
+ },
+ {
+   "ID": 1238,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2013,
+   "Value": 33.6
+ },
+ {
+   "ID": 1239,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2014,
+   "Value": 32.4
+ },
+ {
+   "ID": 1240,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2015,
+   "Value": 31.4
+ },
+ {
+   "ID": 1241,
+   "Country": "World",
+   "Code": "WLD",
+   "Year": 2016,
+   "Value": 30.5
+ }
+]
